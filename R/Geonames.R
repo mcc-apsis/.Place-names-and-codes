@@ -27,12 +27,15 @@ write_tsv(geonames,'data/geonames.tsv')
 ###################### improve the country name specification using own data ###################### 
 
 geonames <- read_tsv('data/geonames.tsv')
+geocodes <- read_tsv('data/geocodes.tsv')
 new_geonames <- geonames[0,]
 
 
 countries <- geonames %>% 
   filter(feature_code == 'PCLI')
 
+oil <- geonames %>% 
+  filter(feature_code == 'OILF')
 
 
 messy_names <- read.xlsx('output/ISOcodes.xlsx',sheetName='alternative_names',encoding="UTF-8")
