@@ -53,6 +53,13 @@ ISO_alts <- add_row(ISO_alts,alternative.name="lao p.d.r.",alpha.3="LAO")
 ISO_alts <- add_row(ISO_alts,alternative.name="macao sar",alpha.3="MAC")
 ISO_alts <- add_row(ISO_alts,alternative.name="montenegro, rep. of",alpha.3="MNE")
 ISO_alts <- add_row(ISO_alts,alternative.name="sã£o tomã© and prã�ncipe",alpha.3="STP")
+ISO_alts <- add_row(ISO_alts,alternative.name="bolivarian republic of venezuela",alpha.3="VEN")
+ISO_alts <- add_row(ISO_alts,alternative.name="curaçao/netherlands antilles",alpha.3="ANT")
+ISO_alts <- add_row(ISO_alts,alternative.name="republic of north macedonia",alpha.3="MKD")
+ISO_alts <- add_row(ISO_alts,alternative.name="republic of the congo",alpha.3="COG")
+
+
+
 
 # ISO_alts <- add_row(ISO_alts,alternative.name="bosniaandherzegovina",alpha.3="BIH")
 # ISO_alts <- add_row(ISO_alts,alternative.name="burkinafaso",alpha.3="BIH")
